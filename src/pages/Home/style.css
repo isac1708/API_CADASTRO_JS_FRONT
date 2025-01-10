@@ -1,6 +1,78 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; 
+}
+
+.labelTitle {
+  color: #fff;
+}
+
+input {
+  width: 350px; 
+  padding: 8px; 
+  margin: 5px 0;
+  border: 1px solid #ccc; 
+  border-radius: 20px; 
+  font-size: 14px; 
+  height: 30px; 
+}
+
+button {
+  width: 150px; 
+  padding: 8px; 
+  margin: 5px 0;
+  height: 35px; 
+  background-color: #007bff; 
+  color: white; 
+  border: none; 
+  border-radius: 20px; 
+  font-size: 14px; 
+  cursor: pointer; 
+}
+
+.inputAge {
+  width: 350px; 
+}
+
+.users {
+  color: #fff;
+  font-size: 10px;
+}
+
+.delete-button {
+  background: none; 
+  border: none; 
+  padding: 0; 
+  cursor: pointer; 
+  color: #c20404;
+}
+
+.form-container {
+  background-color: #f9f9f9; 
+  padding: 20px; 
+  border-radius: 20px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  max-width: 400px; 
+  width: 100%; 
+  margin-bottom: 20px; 
+  background: linear-gradient(180deg, #363467 0%, rgba(30,29,79,0.8) 100%);
+}
+
 .trash-icon {
   width: 20px; 
   height: 20px; 
   border: none; 
   background: none; 
+  filter: invert(27%) sepia(100%) saturate(7483%) hue-rotate(353deg) brightness(100%) contrast(119%);
 }
